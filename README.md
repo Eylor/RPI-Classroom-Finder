@@ -3,12 +3,12 @@
 The aim of this project is to give students that attend Rensselaer Polytechnic Institute a simple way to route themselves
 to their classrooms for the semester. 
 
-##Features: 
-###Classroom Routing:
+###Features: 
+####Classroom Routing:
 Give our application a classroom, and it will route you from your current location to the door of the classroom.
-###Building Search:
+####Building Search:
 Browse and explore the floor plans of the academic buildings at RPI.
-###Schedule Upload:
+####Schedule Upload:
 Upload your whole schedule by giving the application your CRN's for the semester and never be late on the first day again!
 
 ##TODO:
