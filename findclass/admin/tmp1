@@ -1,0 +1,9 @@
+	$dh1->Query("select firstname,lastname,email from person where active='Y' && id='$guid'");
+	list($firn,$lasn,$pto)=$dh1->FetchRow();
+	$firn=stripslashes($firn);
+	$lasn=stripslashes($lasn);
+	$pto=stripslashes($pto);
+	$toname="$firn $lasn";
+	if (strpos($pto,"@")) {
+		$toname=addslashes($toname);
+	}

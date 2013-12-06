@@ -1,0 +1,117 @@
+body,p,td,sup,ul,li,h1,h2,h3,h4 {
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 10pt; 
+	color: #000000;
+}
+ul,li {  
+	color: #000099;
+}
+h1 {  
+	font-size: 20pt; 
+	font-weight: normal; 
+	color: #000099; 
+	margin-bottom: -10px; 
+	border-bottom: 1px solid #CC0000; 
+	padding-bottom: 5px;
+}
+h2 {
+	font-size: 16pt;
+	font-weight: normal;
+	color: #000099;
+}
+h3 {  
+	font-size: 14pt; 
+	font-weight: bold; 
+	color: #CC0000;
+}
+h4 {  
+	font-size: 12pt; 
+	font-weight: bold; 
+	color: #CC0000;
+}
+a:link { 
+	color: #0000CC;
+}
+a:visited { 
+	color: #0000A0;
+}
+a:hover {
+	color: #CC0000;
+}
+.backtext {
+	background-color: #000099;
+	line-height: 16pt;
+	border: thin solid #cc0000;
+	color: #ffffff;
+	padding: 5;
+}
+
+.servName,a.servName,a.servName:link,a.servName:visited {
+	color: #696969; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	/*
+	color: #B1B1B1;
+	font-size: 22px;
+	font-weight: bold;
+	*/
+}
+a.servName:hover {
+	color: #2D82C8;
+}
+.servNameOff {
+	color: #c0c0c0; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+}
+.servDescr {  
+	font-size: 13px;
+	color: Black;
+}
+sup {
+	font-size: 7px;
+}
+.footer { 
+	color: #8C8C8C;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+}
+a.footer,a.footer:visited { 
+	font-size: 8pt; 
+	color: #8C8C8C;
+}
+a.footer:hover { 
+	color: #5B83BD;
+}
+.main-table {
+	background-image: url(/images/spider.gif); 
+	background-repeat: no-repeat; 
+	/* background-position: right top; */
+}
+.subtitle {
+	color: #000000;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.searchResultsHeading,th.searchResultsHeading {
+	background-color: #A0C8EF;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.highlight {
+        background-color: #FFFF99;
+        font-weight: bold;
+}
+.blackout {
+	background-color: black;
+	font-weight: bold;
+}

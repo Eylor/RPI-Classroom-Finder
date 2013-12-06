@@ -1,0 +1,48 @@
+$writeup
+<div data-role="collapsible-set">
+<div data-role="collapsible" data-theme="b">
+<h3>For Players</h3>	
+<ul data-role="listview" data-inset="true">
+<li><a href="#underconstruction" data-transition="slide">Find a Game</a></li>
+<li><a href="#underconstruction" data-transition="slide">Leaderboards</a></li>
+<li><a href="#underconstruction" data-transition="slide">Sign-Up</a></li>
+<li><a href="#underconstruction" data-transition="slide">My Ranking</a></li>
+</ul>
+</div>
+<div data-role="collapsible" data-theme="b">
+<h3>For Taverns</h3>
+<ul data-role="listview" data-inset="true">
+<li><a href="#underconstruction" data-transition="slide">Join the Family</a></li>
+<li><a href="#underConstruction" data-transition="slide">Enter Scores</a></li>
+<li><a href="#underConstruction" data-transition="slide">Email to Your Players</a></li>
+</ul>
+</div>
+<div data-role="collapsible" data-theme="b">
+<h3>General</h3>
+<ul data-role="listview" data-inset="true">
+<li class="notlogged"><a href="javascript:logoffUser();" data-transition="slide">Logoff</a></li>
+<li class="logged"><a href='javascript:loadMyAccount();' data-transition="slide">My Account</a></li>
+<li><a href="faq.php?v=$ver" data-transition="slide">FAQs</a></li>
+<li><a href="help.php" data-transition="slide">Help</a></li>
+<li><a href="contact.php" data-transition="slide">Contact Us</a></li>
+<li><a href="aboutus.php?v=$ver" data-transition="slide">About Us</a></li>
+<li class="icgOnly"><a href="http://www.pokerleague4.us/admin/index.php" data-transition="slide" rel="external">Administration</a></li>
+</ul>
+</div>
+</div>
+</div><!-- /content -->
+</div><!-- /home page -->
+
+<div data-role="dialog" id="login" data-title="Log In">
+<div data-role="header" data-theme="a">
+<h1>Login to Platform</h1>
+</div>
+<div data-role="content">
+<div id="logErrMsg"></div>
+<form name="loginForm" action="moblogin.php">
+Email Address: <input type=email id="loginEmailAddr" name="emailAddr" value="" autofocus="autofocus"><br>
+Password: <input type=password name="password" value=""><br>
+<input type="submit" value="Log In" data-inline="true" data-theme="e">
+</form>
+</div><!-- /content -->
+</div><!-- /login -->

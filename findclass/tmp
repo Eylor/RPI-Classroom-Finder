@@ -1,0 +1,4 @@
+list($cid,$tit,$ins,$meets)=$dh->FetchRow();
+$tit=stripslashes($tit);
+$ins=stripslashes($ins);
+$meets=stripslashes($meets);

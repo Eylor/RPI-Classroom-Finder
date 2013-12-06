@@ -1,0 +1,54 @@
+$emailheader=<<< END
+<html><head><meta http-equiv="Content-Language" content="en-us">      
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+body,p,td,sup,ul,li,h1,h2,h3,h4 {
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 10pt;
+        color: #000000;
+}
+h1 {
+        font-size: 18pt;
+        font-weight: normal;
+        color: #000099;
+        margin-bottom: -10px;
+        border-bottom: 1px solid #CC0000;
+        padding-bottom: 5px;
+}
+h2 {
+        font-size: 16pt;
+        font-weight: normal;
+        color: #000099;
+}
+h3 {
+        font-size: 14pt;
+        font-weight: bold;
+        color: #CC0000;
+}
+h4 {
+        font-size: 12pt;
+        font-weight: bold;
+        color: #CC0000;
+}
+.highlight {
+        background-color: #FFFF99;
+        font-weight: bold;
+}
+.small {
+	font-size:11px;
+}
+</style>
+</head>
+<body>
+END;
+$emailfooter=<<< END
+</body>
+</html>
+END;
+	$html=<<< END
+$emailheader
+<h1>$heading</h1>
+<br>
+$text
+$emailfooter
+END;
